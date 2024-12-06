@@ -48,6 +48,16 @@ body {
     font-style: normal;
 }
 
+.my-skill2 h1 {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #6a6a6a;
+    font-family: "Mali", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
 .main-content p {
     text-align: center;
     margin: 10px 0;
@@ -95,19 +105,24 @@ table th {
 
 
 a {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1rem;
     color: #ffa74e;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .click a {
+    display: flex;
+    justify-content: center;
     color: #4ea4ff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #ff6e4e;
+    color: #fc4f29;
 }
 
 .click :hover {
@@ -136,6 +151,4 @@ a:hover {
 iframe {
     width: 420px ;
     height: 315px ;
-    display: flex;
-    justify-content: center; 
 }
